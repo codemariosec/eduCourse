@@ -12,6 +12,7 @@
         <module>eureka</module>
         <module>system</module>
         <module>gateway</module>
+        <module>server</module>
     </modules>
 
     <repositories>
@@ -56,6 +57,12 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.13</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.course</groupId>
+                <artifactId>server</artifactId>
+                <version>0.0.1-SNAPSHOP</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
