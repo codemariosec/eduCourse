@@ -42,7 +42,7 @@ public class ChapterController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseDto save(@PathVariable(value = "id") String id) {
+    public ResponseDto delete(@PathVariable(value = "id") String id) {
         ResponseDto responseDto = new ResponseDto();
         chapterService.delete(id);
         return responseDto;
